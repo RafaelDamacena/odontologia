@@ -1,418 +1,366 @@
-*{
-    box-sizing:content-box;
-    margin-right:0;
-}
-html,body
-{
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-}
-header{
-    font-family: 'Poppins', 'sans-serif';
-    background-color:#DDE9E9;
-    border-bottom: 0.2px solid #a7a7a7;
-    padding:5px;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Talita Oliveira</title>
 
-
-.navigation{
-    padding:10px;
-}
-
-
-.nav_link{
-    margin-right:20px;
-    text-decoration:none;
-    color:rgb(109, 109, 109);
-}
-
-
-.logo_img{
-    width:2em;
-    height:2em;
-    margin-right:10px;
-}
-
-
-.nav_img{
-    width:1.9em;
-    height:1.9em;
-    margin-right:10px;
-    filter:contrast(20%)
-}
-
-
-.padding_form{
-    padding:100px;
-}
-
-
-.hero_div{
-    background-image: url('/assets/main/Hero.jpg');
-    background-size:cover; background-position:center;
-    height:100vh;
-}
-
-
-.hero_section{
-    padding-top:80px;
-    margin-left:80px;
-    font-family: 'Poppins', 'sans-serif';
-}
-
-.hero_title{
-    font-family: 'Red Hat Display', 'sans-serif';
-    max-width:800px;
-    color:#414141;
-    margin-bottom:30px;
-    font-weight:500;
-    font-size:48px;
-}
-
-
-.hero_text{
-    max-width:400px;
-    color:#666666;
-    margin-bottom:30px;
-}
-
-
-.hero_button{
-    border:none;
-    padding: 10px 80px 10px 80px;
-    border-radius:10px;
-    background-color:#d53c00;
-    color:white;
-    font-size:18px;
-}
-
-
-.section_1{
-    padding:20px;
-    padding-top:50px;
-    font-family: 'Poppins', 'sans-serif';
-}
-
-
-.section_1-img{
-    margin-bottom:20px;
-    width:3em;
-}
-
-
-.section_1-title{
-    font-size:20px;
-}
-
-
-.section-1-text{
-    font-size:16px;
-
-}
-
-.section_2-img{
-    padding-right:50px;
-}
-
-
-.section_2-title{
-    font-family: 'Red Hat Display', 'sans-serif';
-    font-size:36px;
-}
-
-
-.section_2-text{
-    font-family: 'Poppins', 'sans-serif';
-    font-size:16px;
-    padding-bottom:30px;
-    color:#666666;
-}
-
-
-.section_2-button{
-    background-color:#25C3D9;
-    font-size:24px;
-    width:100%;
-    font-family: 'Poppins', 'sans-serif';
-    border:none;
-    color:white;
-    border-radius:20px;
-    height:100%;
-}
-
-
-.section_2-icon{
-    width:55px;
-    height:37px;
-}
-
-
-.services_div{
-    background-color:#F0F9F9;
-}
-
-
-.service_div{
-    width:350px;
-    height:350px;
-    padding:30px;
-    background-color:white;
-    box-shadow: 0px 2px 10px 0px gray;
-    border-radius:20px;
-}
-
-.services_img{
-    width:100px;
-    height:100px;
-    padding:10px;
-}
-
-
-.service_title{
-    font-family: 'Red Hat Display', sans-serif;
-    font-size:20px;
-    margin-top:10px;
-    color:#000000;
-}
-
-.service_text{
-    font-family: 'Poppins', sans-serif;
-    font-size:16px;
-    padding-top:20px;
-    color:#505050;
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     
-}
-
-
-.basic_title{
-    padding-top:50px;
-    font-family: 'Red Hat Display';
-    font-size: 20px;
-}
-
-.basic_text{
-    font-family: 'Red Hat Display';
-    padding-bottom:100px;
-    font-size:30px;
-}
-
-.specialist{
-    width:296.5px;
-    height:499px;
-}
-
-
-.specialists{
-    padding-bottom:100px;
-}
-
-
-.form_1{
-    background-color:#F1F1F1;
-}
-
-
-.form_title{
-    font-size:48px;
-    font-family: 'Red Hat Display', sans-serif;
-    font-weight:500;
-    padding-bottom:30px;
-}
-
-
-.checkmark_div{
-    margin-bottom:20px;
-    font-family: 'Poppins', sans-serif;
-}
-
-
-
-.form_2{
-    background-color:#00B8B8;
-    color:white;
-}
-
-
-form{
-    display:flex;
-    flex-direction:column;
-}
-
-input[type="text"]{
-    border: none; 
-    border-bottom: 1px solid white;
-    background-color: transparent;
-    color: white;
-    padding: 5px;
-    margin: 5px 0;
-    outline: none;
-    font-family: 'Poppins', sans-serif;
-    font-size:16px;
-
-}
-
-input::placeholder{
-    color:white;
-    font-size:16px;
-    font-family: 'Poppins', sans-serif;
-}
-
-
-.clientes{
-    padding-left:50px;
-    padding-right:50px;
-    padding-bottom:20px;
-    font-family:'Poppins', sans-serif;
-}
-
-
-.cliente_text{
-    border:1px solid gray;
-    font-family: 'Poppins', sans-serif;
-    font-size:20px;
-    padding:20px;
-    border-radius:20px;
-}
-
-.cliente_pic{
-    width:75px;
-    height:75px;
-}
-
-.clientes_satisfeitos{
-    border: 3px solid #1AA2B5;
-    border-radius:20px;
-    padding:30px;
-    font-family: 'Red Hat Display', sans-serif;
-    font-size:30px;
-}
-
-.cliencter{
-    padding:200px;
-}
-
-.footer1{
-    font-family: 'Poppins', sans-serif;
-    padding:0;
-    padding-top:0px;
-}
-
-
-.footer_img{
-    width:75px;
-    height:75px;
-}
-
-
-@media only screen and (max-width: 576px){
-    .hero_div{
-        background-image: url('/assets/main/hero_mobile.jpg');
-        background-size:cover; background-position:center;
-        height:100vh;
-        background-color: rgba(0,0,0,0.5);
-    }
-
-    .hero_section{
-        padding-top:40px;
-        margin-left:30px;
-        font-family: 'Poppins', 'sans-serif';
-    }
-
-    .hero_text{
-        max-width:350px;
-        color:white;
-        margin-bottom:15px;
-        font-size:14px;
-        
-    }
+    <link rel="stylesheet" href="styles.css">
     
-    .form_title{
-        font-size:30px;
-        font-family: 'Red Hat Display', sans-serif;
-        font-weight:500;
-        padding-bottom:30px;
-    }
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
 
-    .hero_button{
-        border:none;
-        padding: 10px 30px 10px 30px;
-        border-radius:10px;
-        background-color:#ff3c00;
-        color:white;
-        font-size:16px;
-    }
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
 
-    br{
-        display:none;
-    }
-    h1{
-        font-size:30px !important;
-        margin-bottom:15px !important;
-        color:black;
-    }
-    
-    .hero_title{
-        margin-bottom:15px !important;
-        max-width:400px;
-        color:rgb(255, 255, 255);
-    }
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
-    .nav_link:first-of-type{
-        display:none;
-    }
-    .nav_link:last-of-type{
-        display:none;
-    }
+    <div class="container-fluid text-center"  data-aos="fade-down" data-aos-duration="1000">
+        <header class="row">
+            <div class="col" style="padding:10px;">
+                <a class="nav_link" href="#"><img class="logo_img" src="/assets/periferico/logo.png" alt="Logo">TALITA OLIVEIRA</a>
+            </div>
 
-    .col:first-of-type{
-        display:none;
-    }
+            <div class="col navigation">
+                <a class="nav_link" href="#hero">Início</a>
+                <a class="nav_link" href="#sobre">Sobre</a>
+                <a class="nav_link" href="#serviços">Serviços</a>
+                <a class="nav_link" href="#contato">Contato</a>
+            </div>
 
-    .section_2-img{
-        padding-right:none !important;
-        padding-bottom:50px;
-    }
+            <div class="col" style="padding:10px;">
+                <a href="#"><img class="nav_img" src="/assets/periferico/facebook.png" alt="Facebook"></a>
+                <a href="#"><img class="nav_img" src="/assets/periferico/twitter.png" alt="Twitter"></a>
+                <a href="#"><img class="nav_img" src="/assets/periferico/instagram.png" alt="Instagram"></a>
+            </div>
+        </header>
+    </div>
 
-    .service_title{
-        font-size:18px;
-    }
+    <div class="row hero_div" id="hero">
+        <div class="hero_section">
+            <h1 class="hero_title row" data-aos="fade-right" data-aos-duration="2000">
+                Faça seu sorriso brilhar!
+            </h1>
+            <p class="hero_text row" data-aos="fade-right" data-aos-duration="2000">
+                Faremos você ter seu sorriso dos sonhos 
+                com profissionais especializados.
+            </p>
+            <button class="hero_button row" data-aos="fade-right" data-aos-duration="2000">Conhecer agora!</button>
+        </div>
+    </div>
 
-    .service_text{
-        font-size:14px;
-    }
+    <div class="row section_1"  data-aos="fade-up" data-aos-duration="2000">
+        <div class="col-12 col-sm-4 text-center" style="margin-bottom:15px;">
+            <img class="section_1-img" src="/assets/periferico/relogio.png">
+            <h6 class="section_1-title">Atendimento 24 horas</h6>
+            <p class="section_1-text">
+                Oferecemos atendimento<br>
+                a qualquer horário do dia!
+            </p>
+        </div>
+        <div class="col-12 col-sm-4 text-center" style="margin-bottom:15px;">
+            <img class="section_1-img" src="/assets/periferico/doutor.png">
+            <h6 class="section_1-title">
+                Profissionais qualificados
+            </h6>
+            <p class="section_1-text">
+                Atendentes capazes e especializados na<br>
+                área, para te atender com perfeição.
+            </p>
+        </div>
+        <div class="col-12 col-sm-4 text-center" style="margin-bottom:15px;">
+            <img class="section_1-img" src="/assets/periferico/moeda.png">
+            <h6 class="section_1-title">Preços acessíveis</h6>
+            <p class="section_1-text">
+                Diversos planos com<br>
+                preços acessíveis para<br>
+                todos os bolsos!
+            </p>
+        </div>
+    </div>
 
-    .services_div{
-        padding-left:20px;
-        padding-right:20px;
-    }
+    <hr>
 
-    .form_1{
-        width:100%;
-    }
+    <div class="row" style="padding: 50px;" id="sobre"> 
+        <div class="col-12 col-sm-6">
+            <img class="img-fluid section_2-img" src="assets/main/Hero_2.png" data-aos="fade-right" data-aos-duration="2000">
+        </div>
+        <div class="col-12 col-sm-6 section_2-section" data-aos="fade-left" data-aos-duration="2000">
+            <p class="section_2-title">
+                Primeira clínica
+                odontológica do
+                Brasil que disponibiliza
+                <strong style="padding: 0;">Atendimento 24 horas</strong>
+            </p>
+            <p class="section_2-text">
+                Somos a primeira e única clínica do Brasil a
+                disponibilizar atendimento em tempo integral
+                para todos os clientes.
+            </p>
+            <div class="row">
+                <div class="col-6 text-center">
+                    <button class="section_2-button" >
+                        Saber mais
+                    </button>
+                </div>
+                <div class="col-6 text-start">
+                    <img class="section_2-icon" src="assets/periferico/Hero_2-icon.png">
+                </div>
+            </div>
+        </div>
+    </div>
+<div>
+    <div class="row text-center services_div" id="serviços">
+        <p class="basic_title" style="color:#1AA2B5;">
+            Nossos serviços
+        </p>
+        <h5 class="basic_text">
+            Comprometidos com<br>
+            serviços de saúde bucal de<br>
+            excelência
+        </h5>
+    </div>
 
-    .form_2{
-        width:100%;
-    }
-    
-    .cliente_text{
-        display:none;
-    }
+   
+    <div class="row services_div justify-content-center" style="padding-bottom:100px;">
+        <div class="col-6 col-sm-4 mb-5 d-flex text-center justify-content-center">
+            <div class="service_div" style="padding-bottom:100px;"  data-aos="fade-up" data-aos-duration="3000">   
+                <img class="services_img" src="/assets/services/1.png">
+                <p class="service_title">
+                    Especialista em<br>
+                    alinhamento
+                </p>
+                <p class="service_text">
+                    Serviços de alinhamento
+                </p>
+            </div> 
+        </div>
+        <div class="col-6 col-sm-4 d-flex text-center justify-content-center">
+            <div class="service_div" style="padding-bottom:100px;"  data-aos="fade-up" data-aos-duration="3000">
+                <img class="services_img img-fluid" src="/assets/services/2.png">
+                <p class="service_title">
+                    Especialista em<br>
+                    canal radicular
+                </p>
+                <p class="service_text">
+                    Serviços de canal radicular
+                </p>
+            </div>
+        </div>
+        <div class="col-6 col-sm-4 d-flex text-center justify-content-center" style="padding-bottom:100px;">
+            <div class="service_div" style="padding-bottom:100px;"  data-aos="fade-up" data-aos-duration="3000"> 
+                <img class="services_img" src="/assets/services/3.png">
+                <p class="service_title">
+                    Odontologia<br>
+                    Estética
+                </p>
+                <p class="service_text">
+                    Serviços de estética geral
+                </p>
+            </div>   
+        </div>
+        <div class="col-6 col-sm-4 d-flex text-center justify-content-center">
+            <div class="service_div" style="padding-bottom:100px;"  data-aos="fade-up" data-aos-duration="3000">
+                <img class="services_img" src="/assets/services/4.png">
+                <p class="service_title">
+                    Higiene<br> Bucal  
+                </p>
+                <p class="service_text">
+                    Limpeza dentária
+                </p>
+            </div>
+        </div>
+        <div class="col-6 col-sm-4 d-flex text-center justify-content-center">
+            <div class="service_div" style="padding-bottom:100px;"  data-aos="fade-up" data-aos-duration="3000">
+                <img class="services_img" src="/assets/services/5.png">
+                <p class="service_title">
+                    Consultoria<br>
+                    Odontológica
+                </p>
+                <p class="service_text">
+                    Consultorias on-line e ao vivo
+                </p>
+            </div>
+        </div>
+        <div class="col-6 col-sm-4 d-flex text-center justify-content-center">
+            <div class="service_div" style="padding-bottom:100px;"  data-aos="fade-up" data-aos-duration="3000">
+                <img class="services_img" src="/assets/services/6.png">
+                <p class="service_title">
+                    Inspeção de<br> cavidade
+                </p>
+                <p class="service_text">
+                    Inspeção da sua cavidade dentária
+                </p>
+        </div>
+    </div>
 
-    .cliente_info{
-        padding-bottom:50px;
-    }
+    <div class="row text-center">
+        <p class="basic_title" style="color:#1AA2B5;">
+            Nossos especialistas
+        </p>
+        <h5 class="basic_text">
+            Conheça nossa equipe<br>
+            de profissionais<br>
+            capacitados
+        </h5>
+    </div>
+    <div class="row specialists"  data-aos="fade-up" data-aos-duration="2000">
+        <div class="col text-center align-self-center">
+            <a href="#"><img class="img-fluid specialist" src="/assets/specialists/specialist_1.png"></a>
+        </div>
+        <div class="col text-center align-self-center">
+            <a href="#"><img class="img-fluid specialist" src="/assets/specialists/specialist_2.png"></a>
+        </div>
+        <div class="col text-center align-self-center">
+            <a href="#"><img class="img-fluid specialist" src="/assets/specialists/specialist_3.png"></a>
+        </div>
+    </div>
 
-    .clientes_satisfeitos{
-        font-size:20px;
-    }
+    <div class="row align-self-center" id="contato">
+        <div class="col-12 col-sm-6 text-left form_1" data-aos="fade-right" data-aos-duration="2000">
+            <div class="padding_form">
+                <p class="form_title">
+                    Por quê escolher<br>
+                    nosso atendimento<br>
+                    odontológico?<br>
+                </p>
+                <div class="text-left checkmark_div">
+                    <img src="/assets/periferico/checkmark.png">
+                    Assistência odontológica com tecnologia avançada
+                </div>
+                <div class="text-left checkmark_div">
+                    <img src="/assets/periferico/checkmark.png">
+                    A equipe de profissionais mais qualificada
+                </div>
+                <div class="text-left checkmark_div">
+                    <img src="/assets/periferico/checkmark.png">
+                    Serviços de atendimento de emergência 24h
+                </div>
+            </div>
+        </div>                 
+        <div class="col-12 col-sm-6 text-right form_2" data-aos="fade-left" data-aos-duration="2000">
+            <div class="padding_form">
+                <p class="form_title">
+                    Agende uma consulta<br>
+                    sem<br> complicações
+                </p>
+                <form>
+                    <input type="text" placeholder="Nome">
+                    <input type="text" placeholder="E-mail">
+                    <input type="text" placeholder="Telefone">
+                    <input type="text" placeholder="Como podemos ajudar?">
+                </form>
+            </div>
+        </div>
+    </div>
 
-    .cliencter{
-        padding:60px;
-    }
+    <div class="row text-center">
+        <p class="basic_title" style="color:#1AA2B5;">
+            Testemunhas
+        </p>
+        <h5 class="basic_text">
+            Confira depoimentos<br>
+            de nossos clientes satisfeitos
+        </h5>
+    </div>
+    <div class="row clientes">
+        <div class="col-4 cliente_div text-center d-flex justify-content-center">
+            <div class="cliente_text" style=" width:60%;background-image:url(/assets/periferico/blue_light.png);background-size: cover; background-position: center; background-repeat: no-repeat;" data-aos="fade-up" data-aos-duration="2000">
+                <span>
+                    Profissionais muito
+                    educados,
+                    nota máxima.
+                </span>
+            </div>
+        </div>
+        <div class="col-4 cliente_div text-center d-flex justify-content-center">
+            <div class="cliente_text" style=" width:60%;background-image:url(/assets/periferico/blue_light.png);background-size: cover; background-position: center; background-repeat: no-repeat;" data-aos="fade-up" data-aos-duration="2000">
+                <span>
+                    Excelentes serviços.
+                    estou muito satisfeito
+                    com o resultado.
+                </span>
+            </div>
+        </div>
+        <div class="col-4 cliente_div text-center d-flex justify-content-center">
+            <div class="cliente_text" style=" width:60%;background-image:url(/assets/periferico/blue_light.png);background-size: cover; background-position: center; background-repeat: no-repeat;" data-aos="fade-up" data-aos-duration="2000">
+                <span>
+                    Fui atendida muito
+                    rápido, amei
+                    a pontualidade.
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class="row clientes" style="padding-bottom:100px;" data-aos="fade-up" data-aos-duration="2000">
+        <div class="col-sm-4 col-12 cliente_info text-center">
+            <img class="cliente_pic" src="assets/main/cliente_1.png">
+            <div>
+                <span>Roberto Alvarenga</span>
+            </div>
+            <img src="/assets/main/stars.png">
+        </div>
+        <div class="col-sm-4 col-12 cliente_info text-center">
+            <img class="cliente_pic" src="assets/main/cliente_2.png">
+            <div>
+                <span>Alberto Silva</span>
+            </div>
+            <img src="/assets/main/stars.png">
+        </div>
+        <div class="col-sm-4 col-12 cliente_info text-center">
+            <img class="cliente_pic" src="assets/main/cliente_3.png">
+            <div>
+                <span>Larissa Medeiros</span>
+            </div>
+            <img src="/assets/main/stars.png">
+        </div>
+    </div>
 
-    .padding_form{
-        padding:60px;
-    }
-}
+    <div class="row cliencter container-fluid text-center justify-content-center" data-aos="fade-up" data-aos-duration="2000">
+        <div class="clientes_satisfeitos">
+            CLIENTES SATISFEITOS <img style="padding-bottom:10px;" src="/assets/main/stars.png"> 500+ AVALIAÇÕES
+        </div>
+    </div>
+
+    <div class="row text-center footer1 d-flex justify-content-center" data-aos="fade-up" data-aos-duration="2000">
+        <div class="col-4 text-center">
+            <img class="footer_img" src="/assets/periferico/footer_img-1.png">
+        </div>
+        <div class="col-4 text-center">
+            <img class="footer_img" src="/assets/periferico/footer_img-2.png">
+        </div>
+        <div class="col-4 text-center">
+            <img class="footer_img" src="/assets/periferico/footer_img-3.png">
+        </div>
+    </div>
+    <div class="row text-center" data-aos="fade-up" data-aos-duration="2000">
+        <div class="col-4 text-center">
+            <p>Consultas</p>
+            <span style="color:rgb(92, 92, 92);">
+                Ligação Telefônica
+            </span>
+        </div>
+        <div class="col-4 text-center">
+            <p>Suporte ao Paciente</p>
+            <span style="color:rgb(92, 92, 92);">
+                Escrever Email
+            </span>
+        </div>
+        <div class="col-4 text-center">
+            <p>Localização</p>
+            <span style="color:rgb(92, 92, 92);">
+                Rua Belém N° 7 Bairro 
+                Santa Clara, Yaklandia
+            </span>
+        </div>
+    </div>
+</body>
+</html>
