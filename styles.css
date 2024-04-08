@@ -314,7 +314,7 @@ input::placeholder{
     }
 
     .hero_section{
-        padding-top:80px;
+        padding-top:100px;
         margin-left:30px;
         font-family: 'Poppins', 'sans-serif';
     }
@@ -323,13 +323,14 @@ input::placeholder{
         max-width:350px;
         color:#666666;
         margin-bottom:15px;
+        font-size:14px;
         
     }
     
     
     .hero_button{
         border:none;
-        padding: 10px 50px 10px 50px;
+        padding: 10px 40px 10px 40px;
         border-radius:10px;
         background-color:#d53c00;
         color:white;
@@ -340,7 +341,7 @@ input::placeholder{
         display:none;
     }
     h1{
-        font-size:36px !important;
+        font-size:30px !important;
         margin-bottom:15px !important;
     }
     
