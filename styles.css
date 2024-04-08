@@ -49,7 +49,7 @@ header{
 
 
 .hero_div{
-    background-image: url('/assets/main/Hero.png');
+    background-image: url('/assets/main/hero.png');
     background-size:cover; background-position:center;
     height:100vh;
 }
@@ -321,7 +321,7 @@ input::placeholder{
     .hero_text{
         max-width:350px;
         color:#666666;
-        margin-bottom:30px;
+        margin-bottom:10px;
     }
     
     
@@ -339,9 +339,17 @@ input::placeholder{
     }
     h1{
         font-size:40px !important;
+        margin-bottom:10px !important;
+    }
+    
+    .hero_title{
+        margin-bottom:10px !important;
     }
 
     .nav_link:first-of-type{
+        display:none;
+    }
+    .nav_link:last-of-type{
         display:none;
     }
 
@@ -393,9 +401,5 @@ input::placeholder{
 
     .padding_form{
         padding:60px;
-    }
-
-    .nav_link:last-of-type{
-        display:none;
     }
 }
