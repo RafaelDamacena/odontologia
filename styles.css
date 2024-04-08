@@ -324,7 +324,10 @@ input::placeholder{
 
     .hero_text{
         max-width:350px;
-        color:white;
+        color:rgb(255, 248, 240);
+        background-color:rgba(0,0,0,0.1);
+        border-radius:30px;
+        padding:10px;
         margin-bottom:15px;
         font-size:14px;
         
@@ -358,7 +361,10 @@ input::placeholder{
     .hero_title{
         margin-bottom:15px !important;
         max-width:400px;
-        color:rgb(255, 255, 255);
+        color:rgb(255, 248, 240);
+        background-color:rgba(0,0,0,0.1);
+        border-radius:30px;
+        padding:10px;
     }
 
     .nav_link:first-of-type{
