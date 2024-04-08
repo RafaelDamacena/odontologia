@@ -394,4 +394,8 @@ input::placeholder{
     .padding_form{
         padding:60px;
     }
+
+    .nav_link:last-of-type{
+        display:none;
+    }
 }
