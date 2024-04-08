@@ -45,7 +45,7 @@ header{
 
 
 .hero_div{
-    background-image: url('/assets/main/Hero.png');
+    background-image: url('/assets/main/hero.png');
     background-size:cover; background-position:center;
     height:100vh;
 }
@@ -284,6 +284,9 @@ input::placeholder{
     font-size:30px;
 }
 
+.cliencter{
+    padding:200px;
+}
 
 .footer1{
     font-family: 'Poppins', sans-serif;
@@ -295,4 +298,64 @@ input::placeholder{
 .footer_img{
     width:75px;
     height:75px;
+}
+
+
+@media only screen and (max-width: 576px){
+    br{
+        display:none;
+    }
+    h1{
+        font-size:40px !important;
+    }
+
+    .nav_link:first-of-type{
+        display:none;
+    }
+
+    .col:first-of-type{
+        display:none;
+    }
+
+    .section_2-img{
+        padding-right:none !important;
+        padding-bottom:50px;
+    }
+
+    .service_title{
+        font-size:18px;
+    }
+
+    .service_text{
+        font-size:14px;
+    }
+
+    .services_div{
+        padding-left:20px;
+        padding-right:20px;
+    }
+
+    .form_1{
+        width:100%;
+    }
+
+    .form_2{
+        width:100%;
+    }
+    
+    .cliente_text{
+        display:none;
+    }
+
+    .cliente_info{
+        padding-bottom:50px;
+    }
+
+    .clientes_satisfeitos{
+        font-size:20px;
+    }
+
+    .cliencter{
+        padding:60px;
+    }
 }
