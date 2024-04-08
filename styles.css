@@ -11,7 +11,7 @@ html,body
 }
 header{
     font-family: 'Poppins', 'sans-serif';
-    background-color:#eaeaea;
+    background-color:#DDE9E9;
     border-bottom: 0.2px solid #a7a7a7;
     padding:5px;
 }
@@ -50,15 +50,15 @@ header{
 
 
 .hero_div{
-    background-image: url('/assets/main/hero.png');
+    background-image: url('/assets/main/Hero.jpg');
     background-size:cover; background-position:center;
     height:100vh;
 }
 
 
 .hero_section{
-    padding-top:100px;
-    margin-left:50px;
+    padding-top:80px;
+    margin-left:80px;
     font-family: 'Poppins', 'sans-serif';
 }
 
@@ -68,7 +68,7 @@ header{
     color:#414141;
     margin-bottom:30px;
     font-weight:500;
-    font-size:64px;
+    font-size:48px;
 }
 
 
@@ -308,21 +308,21 @@ input::placeholder{
 
 @media only screen and (max-width: 576px){
     .hero_div{
-        background-image: url('/assets/main/hero_mobile-1.png');
+        background-image: url('/assets/main/hero_mobile.jpg');
         background-size:cover; background-position:center;
         height:100vh;
         background-color: rgba(0,0,0,0.5);
     }
 
     .hero_section{
-        padding-top:160px;
+        padding-top:40px;
         margin-left:30px;
         font-family: 'Poppins', 'sans-serif';
     }
 
     .hero_text{
         max-width:350px;
-        color:#666666;
+        color:white;
         margin-bottom:15px;
         font-size:14px;
         
@@ -339,7 +339,7 @@ input::placeholder{
         border:none;
         padding: 10px 30px 10px 30px;
         border-radius:10px;
-        background-color:#d53c00;
+        background-color:#ff3c00;
         color:white;
         font-size:16px;
     }
@@ -350,11 +350,13 @@ input::placeholder{
     h1{
         font-size:30px !important;
         margin-bottom:15px !important;
+        color:black;
     }
     
     .hero_title{
         margin-bottom:15px !important;
         max-width:400px;
+        color:rgb(255, 255, 255);
     }
 
     .nav_link:first-of-type{
