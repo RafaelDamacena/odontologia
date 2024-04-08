@@ -45,7 +45,7 @@ header{
 
 
 .hero_div{
-    background-image: url('/assets/main/hero.png');
+    background-image: url('/assets/main/Hero.png');
     background-size:cover; background-position:center;
     height:100vh;
 }
