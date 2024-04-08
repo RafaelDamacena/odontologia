@@ -317,7 +317,6 @@ input::placeholder{
         padding-top:160px;
         margin-left:30px;
         font-family: 'Poppins', 'sans-serif';
-        margin-right:20px !important;
     }
 
     .hero_text{
@@ -354,6 +353,7 @@ input::placeholder{
     
     .hero_title{
         margin-bottom:15px !important;
+        max-width:400px;
     }
 
     .nav_link:first-of-type{
