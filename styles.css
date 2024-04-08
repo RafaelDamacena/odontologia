@@ -133,7 +133,7 @@ header{
 
 .section_2-button{
     background-color:#25C3D9;
-    font-size:20px;
+    font-size:24px;
     width:100%;
     font-family: 'Poppins', 'sans-serif';
     border:none;
@@ -290,7 +290,7 @@ input::placeholder{
 }
 
 .cliencter{
-    padding:200px;
+    padding:200px !important;
 }
 
 .footer1{
@@ -308,7 +308,7 @@ input::placeholder{
 
 @media only screen and (max-width: 576px){
     .hero_div{
-        background-image: url('/assets/main/hero_mobile.png');
+        background-image: url('/assets/main/hero_mobile.jpg');
         background-size:cover; background-position:center;
         height:100vh;
         background-color: rgba(0,0,0,0.5);
@@ -386,6 +386,17 @@ input::placeholder{
     .services_div{
         padding-left:20px;
         padding-right:20px;
+    }
+
+    .section_2-button{
+        background-color:#25C3D9;
+        font-size:20px;
+        width:100%;
+        font-family: 'Poppins', 'sans-serif';
+        border:none;
+        color:white;
+        border-radius:20px;
+        height:100%;
     }
 
     .form_1{
