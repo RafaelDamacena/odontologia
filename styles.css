@@ -307,7 +307,7 @@ input::placeholder{
 
 @media only screen and (max-width: 576px){
     .hero_div{
-        background-image: url('/assets/main/hero_mobile-1.jpg');
+        background-image: url('/assets/main/hero_mobile-1.png');
         background-size:cover; background-position:center;
         height:100vh;
         background-color: rgba(0,0,0,0.5);
@@ -327,7 +327,13 @@ input::placeholder{
         
     }
     
-    
+    .form_title{
+        font-size:30px;
+        font-family: 'Red Hat Display', sans-serif;
+        font-weight:500;
+        padding-bottom:30px;
+    }
+
     .hero_button{
         border:none;
         padding: 10px 30px 10px 30px;
