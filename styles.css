@@ -323,23 +323,24 @@ input::placeholder{
         max-width:350px;
         color:#666666;
         margin-bottom:15px;
+        
     }
     
     
     .hero_button{
         border:none;
-        padding: 10px 60px 10px 60px;
+        padding: 10px 50px 10px 50px;
         border-radius:10px;
         background-color:#d53c00;
         color:white;
-        font-size:18px;
+        font-size:16px;
     }
 
     br{
         display:none;
     }
     h1{
-        font-size:40px !important;
+        font-size:36px !important;
         margin-bottom:15px !important;
     }
     
