@@ -310,11 +310,12 @@ input::placeholder{
         background-image: url('/assets/main/hero_mobile.jpg');
         background-size:cover; background-position:center;
         height:100vh;
+        background-color: rgba(0,0,0,0.5);
     }
 
     .hero_section{
-        padding-top:70px;
-        margin-left:20px;
+        padding-top:80px;
+        margin-left:30px;
         font-family: 'Poppins', 'sans-serif';
     }
 
