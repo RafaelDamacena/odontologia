@@ -75,7 +75,7 @@ header{
 
 
 .hero_text{
-    max-width:350px;
+    max-width:400px;
     color:#666666;
     margin-bottom:30px;
 }
@@ -299,7 +299,6 @@ input::placeholder{
     font-family: 'Poppins', sans-serif;
     padding:0;
     padding-top:0px;
-    background-color:rgb(220,220,220);
 }
 
 
@@ -311,7 +310,7 @@ input::placeholder{
 
 @media only screen and (max-width: 576px){
     .hero_div{
-        background-image: url('/assets/main/hero_mobile.png');
+        background-image: url('/assets/main/hero_mobile.jpg');
         background-size:cover; background-position:center;
         height:100vh;
         background-color: rgba(0,0,0,0.5);
@@ -326,10 +325,11 @@ input::placeholder{
 
 
     .hero_text{
-        max-width:300px;
-        color:rgb(255, 248, 240);
+        max-width:350px;
+        color:white;
         margin-bottom:15px;
         font-size:14px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra do texto */
         
     }
 
@@ -356,13 +356,15 @@ input::placeholder{
     h1{
         font-size:30px !important;
         margin-bottom:15px !important;
-        color:black;
+        color:white;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra do texto */
     }
     
     .hero_title{
         margin-bottom:15px !important;
         max-width:400px;
         color:rgb(255, 248, 240);
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra do texto */
     }
 
     .nav_link:first-of-type{
