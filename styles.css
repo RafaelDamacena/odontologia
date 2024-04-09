@@ -23,28 +23,25 @@
         AOS.init();
     </script>
 
-    <div style="min-width:100% !important; overflow-x:hidden;" class="container-fluid text-center"  data-aos="fade-down" data-aos-duration="1000">
-        <header class="row">
-            <div class="col" style="padding:10px;">
-                <a class="nav_link" href="#"><img class="logo_img" src="/assets/periferico/logo.png" alt="Logo">TALITA OLIVEIRA</a>
-            </div>
-
-            <div class="col navigation">
-                <a class="nav_link" href="#hero">Início</a>
-                <a class="nav_link" href="#sobre">Sobre</a>
-                <a class="nav_link" href="#serviços">Serviços</a>
-                <a class="nav_link" href="#contato">Contato</a>
-            </div>
-
-            <div class="col" style="padding:10px;">
-                <a href="#"><img class="nav_img" src="/assets/periferico/facebook.png" alt="Facebook"></a>
-                <a href="#"><img class="nav_img" src="/assets/periferico/twitter.png" alt="Twitter"></a>
-                <a href="#"><img class="nav_img" src="/assets/periferico/instagram.png" alt="Instagram"></a>
-            </div>
-        </header>
-    </div>
+   
 
     <div class="row hero_div" id="hero">
+        <div style="min-width:100% !important; max-height:80px !important; overflow-x:hidden;" class="container-fluid text-center"  data-aos="fade-down" data-aos-duration="1000">
+            <header class="row">
+                <div class="col-2" style="padding:10px;">
+                    <a class="nav_link" href="#"><img class="logo_img" src="/assets/periferico/logo.png" alt="Logo">TALITA OLIVEIRA</a>
+                </div>
+    
+                <div class="col-7 navigation">
+                    <a class="nav_link" href="#hero">Início</a>
+                    <a class="nav_link" href="#sobre">Sobre</a>
+                    <a class="nav_link" href="#serviços">Serviços</a>
+                    <a class="nav_link" href="#contato">Contato</a>
+                </div>
+    
+                
+            </header>
+        </div>
         <div class="hero_section">
                 <h1 class="hero_title row" data-aos="fade-right" data-aos-duration="2000">
                     Faça seu sorriso brilhar!
@@ -340,22 +337,22 @@
             <img class="footer_img" src="/assets/periferico/footer_img-3.png">
         </div>
     </div>
-    <div class="row text-center" data-aos="fade-up" data-aos-duration="2000">
+    <div class="row text-center"  data-aos="fade-up" data-aos-duration="2000">
         <div class="col-4 text-center">
             <p>Consultas</p>
-            <span style="color:rgb(92, 92, 92);">
+            <span style="color:rgb(92, 92, 92); text-decoration:underline">
                 Ligação Telefônica
             </span>
         </div>
         <div class="col-4 text-center">
             <p>Suporte ao Paciente</p>
-            <span style="color:rgb(92, 92, 92);">
+            <span style="color:rgb(92, 92, 92); text-decoration:underline">
                 Escrever Email
             </span>
         </div>
         <div class="col-4 text-center">
             <p>Localização</p>
-            <span style="color:rgb(92, 92, 92);">
+            <span style="color:rgb(92, 92, 92); text-decoration:underline">
                 Rua Belém N° 7 Bairro 
                 Santa Clara, Yaklandia
             </span>
